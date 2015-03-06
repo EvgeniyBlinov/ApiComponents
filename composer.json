@@ -11,4 +11,8 @@
     "require": {
         "php": ">=5.3"
     }
+    "autoload": {
+        "psr-0": { "Cent\\ApiComponents": "" }
+    },
+    "target-dir": "Cent/ApiComponents"
 }
