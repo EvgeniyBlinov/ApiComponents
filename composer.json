@@ -1,7 +1,9 @@
 {
     "name": "cent/api-components",
-    "type": "package",
+    "type": "library",
     "description": "Cent API components",
+    "keywords": ["cent", "api", "components"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Evgeniy Blinov",
@@ -9,10 +11,16 @@
         }
     ],
     "require": {
-        "php": ">=5.3"
+        "php": ">=5.3.3"
     },
     "autoload": {
-        "psr-0": { "Cent\\ApiComponents": "" }
+        "psr-0": {
+            "ApiComponents": "src/"
+        }
     },
-    "target-dir": "Cent/ApiComponents"
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.1"
+        }
+    }
 }
