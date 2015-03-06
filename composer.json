@@ -1,0 +1,14 @@
+{
+    "name": "cent/api-components",
+    "type": "php-components",
+    "description": "Cent API components",
+    "authors": [
+        {
+            "name": "Evgeniy Blinov",
+            "email": "evgeniy_blinov@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    }
+}
