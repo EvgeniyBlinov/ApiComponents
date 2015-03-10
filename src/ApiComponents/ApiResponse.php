@@ -27,7 +27,7 @@ class ApiResponse
      *
      * @param mixed $response
      **/
-    function __construct($data, array $options)
+    function __construct($data, array $options = array())
     {
         $this->data = (array) $data;
         $this->setOptions($options);
