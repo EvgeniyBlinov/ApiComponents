@@ -57,6 +57,8 @@ class ApiResponse
      **/
     public function __toArray()
     {
+        echo "ok";die;
+        
         return array(
             'status' => $this->status,
             'meta'   => $this->meta,
