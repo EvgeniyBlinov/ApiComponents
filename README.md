@@ -5,7 +5,28 @@ Simple API components.
 
 ## Usage
 
-Yii2 example with simple API action:
+Yii2 example with simple API action.
+
+Set API error and response type to custom json:
+
+```php
+    /**
+     * Init
+     *
+     * @return void
+     **/
+    public function init()
+    {
+        if (defined('YII_ENV') && YII_ENV == 'prod') { 
+            $handler = new ApiErrorHandler();
+            \Yii::$app->set('errorHandler', $handler);
+            $handler->register();
+        }
+        \Yii::$app->response->format = 'json';
+        parent::init();
+    }
+```
+Create any version action:
 
 ```php
     /**
