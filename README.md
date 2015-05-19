@@ -1,6 +1,6 @@
 [![MIT License][license-image]][license-url]
 
-# api-components
+# ApiComponents
 Simple API components.
 
 ## Usage
