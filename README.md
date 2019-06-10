@@ -3,6 +3,13 @@
 # ApiComponents
 Simple API components.
 
+## Install
+
+```sh
+composer config repositories.yii2-api-components git https://github.com/EvgeniyBlinov/ApiComponents
+composer require "cent/yii2-api-components:v0.0.1"
+```
+
 ## Usage
 
 Yii2 example with simple API action.
