@@ -1,0 +1,21 @@
+{
+    "name": "cent/api-components",
+    "type": "package",
+    "description": "Cent API components",
+    "version": "v0.0.2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgeniy Blinov",
+            "email": "evgeniy_blinov@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "ApiComponents": "src/"
+        }
+    }
+}

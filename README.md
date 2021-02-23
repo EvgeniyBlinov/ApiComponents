@@ -10,7 +10,7 @@ composer config minimum-stability dev
 composer config prefer-stable true
 
 composer config repositories.cent/api-components git https://github.com/EvgeniyBlinov/ApiComponents
-composer require "cent/api-components:v0.0.1"
+composer require "cent/api-components:v0.0.2"
 ```
 
 ## Usage
