@@ -6,6 +6,9 @@ Simple API components.
 ## Install
 
 ```sh
+composer config minimum-stability dev
+composer config prefer-stable true
+
 composer config repositories.yii2-api-components git https://github.com/EvgeniyBlinov/ApiComponents
 composer require "cent/yii2-api-components:v0.0.1"
 ```
